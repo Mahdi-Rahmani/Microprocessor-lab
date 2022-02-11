@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mahdi rahmani, m, LIC=PE7DL-0WY52-MMX9I-TZQ9H-RW7Z5-GL2T9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\M R\Desktop\microController\hw6\Assembly codes\q6\q6.uvprojx
+Project File Date:  06/23/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_SAM3XA.s...
+"q6.s", line 25: Warning: A1581W: Added 3 bytes of padding at address 0x29
+   25 0000002c  END
+0 Errors, 1 Warning
+assembling q6.s...
+RTE/Device/ATSAM3A4C/system_SAM3XA.c(515): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    PMC->PMC_MCKR = (PMC->PMC_MCKR & ~0x70) | (PMC_MCKR_Val & 0x70);
+                                   ~ ^~~~~
+RTE/Device/ATSAM3A4C/system_SAM3XA.c(518): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+    PMC->PMC_MCKR = (PMC->PMC_MCKR & ~0x03) | (PMC_MCKR_Val & 0x03);
+                                   ~ ^~~~~
+2 warnings generated.
+compiling system_SAM3XA.c...
+linking...
+.\Objects\q6.sct(8): warning: L6314W: No section matches pattern *(InRoot$$Sections).
+Program Size: Code=264 RO-data=244 RW-data=0 ZI-data=1024  
+Finished: 0 information, 1 warning and 0 error messages.
+".\Objects\q6.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Microchip
+                http://packs.download.atmel.com/Atmel.SAM3A_DFP.1.0.50.pack
+                Atmel.SAM3A_DFP.1.0.50
+                Atmel SAM3A Series Device Support
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Microchip::Device:Startup:1.0.0
+      Source file:   armcc\Device\SAM3XA\Source\ARM\startup_SAM3XA.s
+      Source file:   templates\main.cpp
+      Include file:  include\sam.h
+      Source file:   templates\main.c
+      Source file:   armcc\Device\SAM3XA\Source\system_SAM3XA.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

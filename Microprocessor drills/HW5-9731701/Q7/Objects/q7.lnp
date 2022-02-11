@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\objects\q7.o"
+".\objects\startup_sam3xa.o"
+".\objects\system_sam3xa.o"
+--strict --scatter ".\Objects\q7.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\q7.map" -o .\Objects\q7.axf

@@ -1,0 +1,75 @@
+Dependencies for Project 'q4', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\q4.s)(0x60D60953)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-I./RTE/_Target_1-I"C:/Users/M R/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/M R/AppData/Local/Arm/Packs/Atmel/SAM3A_DFP/1.0.50/include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"__SAM3A4C__ SETA 1"-o ./objects/q4.o)
+F (RTE\Device\ATSAM3A4C\startup_SAM3XA.s)(0x60D5FB44)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-I./RTE/_Target_1-I"C:/Users/M R/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/M R/AppData/Local/Arm/Packs/Atmel/SAM3A_DFP/1.0.50/include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"__SAM3A4C__ SETA 1"-o ./objects/startup_sam3xa.o)
+F (RTE\Device\ATSAM3A4C\system_SAM3XA.c)(0x57DA6FBC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/_Target_1-I"C:/Users/M R/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"C:/Users/M R/AppData/Local/Arm/Packs/Atmel/SAM3A_DFP/1.0.50/include"-D__UVISION_VERSION="531" -D_RTE_ -D_RTE_ -D__SAM3A4C__-o ./objects/system_sam3xa.o -MD)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\sam3xa.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\sam3a4c.h)(0x57DA6FBC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5ED63D1C)
+I (C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F025A)
+I (C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F025A)
+I (C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8337FA)
+I (C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F025A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CF424)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CF450)
+I (C:\Users\M R\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F025A)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\system_sam3xa.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\adc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\can.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\chipid.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\dacc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\dmac.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\efc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\gpbr.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\hsmci.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\matrix.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\pdc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\pio.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\pmc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\pwm.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\rstc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\rtc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\rtt.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\spi.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\ssc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\supc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\tc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\trng.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\twi.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\uart.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\uotghs.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\usart.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\component\wdt.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\hsmci.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\ssc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\spi0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\tc0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\tc1.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\twi0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\twi1.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\pwm.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\usart0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\usart1.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\usart2.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\uotghs.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\can0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\can1.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\trng.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\adc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\dmac.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\dacc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\matrix.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\pmc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\uart.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\chipid.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\efc0.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\efc1.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\pioa.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\piob.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\rstc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\supc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\rtt.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\wdt.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\rtc.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\instance\gpbr.h)(0x57DA6FBC)
+I (C:\Users\M R\AppData\Local\Arm\Packs\Atmel\SAM3A_DFP\1.0.50\include\pio\sam3a4c.h)(0x57DA6FBC)
